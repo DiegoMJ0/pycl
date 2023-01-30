@@ -20,3 +20,10 @@ class BankAccount(object):
     def __str__(self) -> str:
         return 'Account "' + self.name + '" has a balance of ' + str(self.balance)
 
+
+# running classes
+acct = BankAccount('MyAccount')
+acct.deposit(100)
+acct.deposit(200)
+acct.withdraw(50)
+print(acct) # Account "MyAccount" has a balance of 250.
