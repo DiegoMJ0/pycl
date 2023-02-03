@@ -3,9 +3,10 @@
 
 # Creating classes
 class BankAccount(object):
-    def __init__(self, name):
-        self.name = name 
-        self.balance = 0
+    def __init__(self, input_name, input_balance =0):
+        self.name = input_name 
+        self.balance=input_balance
+        # self.balance = balance
 
     def deposit(self, amount):
         if amount > 0:
