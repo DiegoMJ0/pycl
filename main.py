@@ -22,9 +22,12 @@ class BankAccount(object):
         return 'Account "' + self.name + '" has a balance of ' + str(self.balance)
 
 
-# running classes
-acct = BankAccount('MyAccount')
-acct.deposit(100)
-acct.deposit(200)
-acct.withdraw(50)
-print(acct) # Account "MyAccount" has a balance of 250.
+b1 = BankAccount('Diego')
+print(b1.name)
+# # running classes
+# acct = BankAccount('MyAccount')
+# acct.deposit(100)
+# acct.deposit(200)
+# acct.withdraw(50)
+# print(acct) # Account "MyAccount" has a balance of 250.
+
